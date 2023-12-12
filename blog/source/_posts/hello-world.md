@@ -1,6 +1,9 @@
 ---
 title: Hello World
 
+categories:
+  - 测试
+
 tags:
   - 杂谈
 ---
