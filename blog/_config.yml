@@ -105,11 +105,11 @@ deploy:
   type: ''
 
 algolia:
-  appId: "VL0ASR1RFG"
-  apiKey: "8b90fbf4101a2eaf85c98e05383b3a16"
-  adminApiKey: "f81b119eb6489d8f4a80697d3dd2ae36"
+  appId: "CGTLMCCCOM"
+  apiKey: "f0d363b69f921c966501f81eef266f29"
+  adminApiKey: "0ca1db5bb0e1f204af3a30ab6dca8823"
   chunkSize: 5000
-  indexName: "BK"
+  indexName: "lufangqian"
   fields:
     - content:strip:truncate,0,500
     - excerpt:strip
