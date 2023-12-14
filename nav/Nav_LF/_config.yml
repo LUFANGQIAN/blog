@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 陆方七安の博客
-subtitle: '保持热爱，奔赴星海'
-description: '保持热爱，奔赴星海'
+title: "陆方七安の导航"
+subtitle: ''
+description: ''
 keywords:
-author: LUFANGQIAN
-language: zh-CN
+author: lufangqian
+language: cn
 timezone: ''
 
 # URL
@@ -43,15 +43,14 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -97,31 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly
+theme: webstack
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-algolia:
-  appId: "CGTLMCCCOM"
-  apiKey: "f0d363b69f921c966501f81eef266f29"
-  adminApiKey: "0ca1db5bb0e1f204af3a30ab6dca8823"
-  chunkSize: 5000
-  indexName: "lufangqian"
-  fields:
-    - content:strip:truncate,0,500
-    - excerpt:strip
-    - gallery
-    - permalink
-    - photos
-    - slug
-    - tags
-    - title
-
-
-
-
-
-
